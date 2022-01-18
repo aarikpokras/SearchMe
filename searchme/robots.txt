@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /terms
+Allow: /privacypolicy
+Allow: /more
+Disallow: /script.js
+Allow: /sitemap.xml
+Disallow: /style-more.css
+Disallow: /style.css
+Disallow: /README.md
+Allow: /LICENSE.txt
+Disallow: /.env
+Disallow: /wings
+Disallow: /news/2022
+
+Sitemap: https://searchme.glitch.me/sitemap.xml

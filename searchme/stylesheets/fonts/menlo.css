@@ -1,0 +1,8 @@
+@font-face{
+  font-family: 'menlo';
+  src: url("https://cdn.glitch.me/dc079af4-13a4-4678-aae8-39dd2b9664af/menlo.ttf?v=1641033585014");
+}
+
+body{
+  font-family: 'menlo';
+}

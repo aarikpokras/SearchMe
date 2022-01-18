@@ -1,0 +1,21 @@
+<head>
+  <title>Download Wings of Thunder on SearchMe!</title>
+</head>
+
+<p>
+  Download will begin soon. If it doesn't, click
+  <a href="https://github.com/aarikpokras/dmgs/raw/main/WingsOfThunder.zip"
+    >here</a
+  >.
+</p>
+<p class="message"></p>
+<script>
+  location.assign(
+    "https://github.com/aarikpokras/dmgs/raw/main/WingsOfThunder.zip"
+  );
+  const o = setTimeout(function() {
+    document.getElementsByClassName("message").innerHTML =
+      "Thanks for downloading Wings of Thunder! This is an easter egg on SearchMe.";
+  }, 2000);
+  clearTimeout(o);
+</script>

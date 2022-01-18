@@ -1,0 +1,36 @@
+<header>
+  <span class="help" onclick="help()">Help &#9660;</span>&nbsp;&nbsp;<span
+    class="movements"
+    onclick="movements()"
+    >Movements</span
+  >
+</header>
+<fieldset id="help">
+  <p onclick="closeHelp()">&#9650;</p>
+  <h3>Help</h3>
+  <p>Options</p>
+</fieldset>
+<style>
+  p {
+    cursor: pointer;
+  }
+  header {
+    background-color: #ffaa49;
+    color: white;
+  }
+  .help:hover {
+    background-color: #cd7817;
+    cursor: pointer;
+  }
+  #help {
+    display: none;
+  }
+</style>
+<script>
+  function help() {
+    document.getElementById("help").style.display = "inline";
+  }
+  function closeHelp() {
+    document.getElementById("help").style.display = "none";
+  }
+</script>
